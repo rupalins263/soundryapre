@@ -124,3 +124,11 @@ h2.title {
     padding-left: 7px;
     padding-bottom: 5px;
 }
+.container{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.row {
+    margin-right: -25px;
+    margin-left: 0px;
+}

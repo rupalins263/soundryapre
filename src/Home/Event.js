@@ -1,5 +1,7 @@
 import React,{Component} from 'react';
 import Calendar from 'react-calendar';
+//import DayPicker from 'react-day-picker'; 
+import 'react-day-picker/lib/style.css';
 import './Home.css';
 import axios from 'axios';
 export default class Event extends Component{
@@ -29,7 +31,7 @@ export default class Event extends Component{
          let events="";
         if(this.state.events.length>0){
             events=this.state.events.map((item,index)=>{
-                if(index<2){
+                if(index<3){
                     var month=new Date(item.eventdate).toDateString().split(" ")[1];
                      var day=new Date(item.eventdate).toDateString().split(" ")[2];
                      var href=`/#/NewsSingle?id=${item.eventid}`;
@@ -59,6 +61,42 @@ export default class Event extends Component{
                            
             })
         }
+
+{/*
+        const birthdays = {
+           
+            22 : ['Graduation day for UKG Students '],
+            
+          };
+
+          function renderDay(day) {
+            const date = day.getDate();
+            const dateStyle = {
+              position: 'absolute',
+              color: 'darkgray',
+              bottom: 0,
+              right: 0,
+              fontSize: 12,
+            };
+            const birthdayStyle = { fontSize: '0.6em', textAlign: 'center' };
+            const cellStyle = {
+              height: 50,
+              width: 26,
+              position: 'relative',
+            };
+            return (
+              <div style={cellStyle}>
+                <div style={dateStyle}>{date}</div>
+                {birthdays[date] &&
+                  birthdays[date].map((name, i) => (
+                    <div key={i} style={birthdayStyle}>
+                      🎁 {name}
+                    </div>
+                  ))}
+              </div>
+            );
+          }  */}
+
         return(
  
       <div className="container cols-wrapper">
@@ -74,7 +112,16 @@ export default class Event extends Component{
                              <Calendar
                               onChange={this.onChange}
                                value={this.state.date}
+
                             />
+
+
+                         {/*   <DayPicker                            
+
+                           canChangeMonth={false}
+                           className="Birthdays"
+                           renderDay={renderDay}
+                            /> */}
 
         </div>
         <div className="col-md-5">

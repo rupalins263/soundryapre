@@ -32,7 +32,7 @@ export default class ContactUs extends Component{
         <div>
             <div className="content container">
                 <div className="page-wrapper">
-                    <header className="page-heading clearfix">
+                    <header className="page-heading clearfix"><br/>
                         <h1 className="heading-title pull-left">Contact</h1>
                         <div className="breadcrumbs pull-right">
                             <ul className="breadcrumbs-list">

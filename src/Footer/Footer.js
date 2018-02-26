@@ -30,7 +30,7 @@ export default class Footer extends Component{
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="footer-col col-md-2 col-sm-3 about">
+                                <div className="footer-col col-md-3 col-sm-3 about">
                                     <div className="footer-col-inner">
                                         <h3>&nbsp;</h3>
                                         <ul>
@@ -42,7 +42,7 @@ export default class Footer extends Component{
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="footer-col col-md-3 col-sm-3 contact">
+                                <div className="footer-col col-md-4 col-sm-3 contact">
                                         <h3>Contact us</h3>
                                         <div className="row">
                                             <p className="adr clearfix col-md-12 col-sm-4">
@@ -61,19 +61,19 @@ export default class Footer extends Component{
                                         </div> 
                                               
                                 </div>   
-                                <div className="footer-col col-md-3 col-sm-3 contact">
+                               {/* <div className="footer-col col-md-3 col-sm-3 contact">
                                     <div className="row text-right">
-                                        <img src="http://res.cloudinary.com/dvl9i5pry/image/upload/v1505979470/lms-jas_pwafdo.jpg" style={{"max-width":"100%","max-height":"141px"}}/>
+                                        <img src="http://res.cloudinary.com/dvl9i5pry/image/upload/v1505979470/lms-jas_pwafdo.jpg" style={{"max-width":"100%","max-height":"141px"}}/> 
                                     </div>
                                        
-                                 </div>
+                                 </div>*/}
                                 </div>   
                             </div>        
                         </div>
                         <div className="bottom-bar">
                             <div className="container">
                                 <div className="row">
-                                    <small className="copyright col-md-6 col-sm-12 col-xs-12">Copyright @ 2017. All Rights Reserved.</small>
+                                    <small className="copyright col-md-6 col-sm-12 col-xs-12">Copyright @ 2018. All Rights Reserved.</small>
                                     <small className="copyright col-md-6 col-sm-12 col-xs-12" style={{textAlign:"right"}}>Designed By Zepnosys technologies.</small>
                                   </div>
                             </div>

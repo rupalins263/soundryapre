@@ -1,36 +1,39 @@
 import React,{Component} from 'react';
 import '../Contact/Contact.css';
 
-export default class Sports extends Component{
+export default class SchoolSchedule extends Component{
     render(){
         return(
               <div className="content container">
                     <div className="page-wrapper"><br/>
                             <header className="page-heading clearfix">
-                                    <h1 className="heading-title pull-left">Sports</h1>
+                                    <h1 className="heading-title pull-left"> School Schedule</h1>
                                     <div className="breadcrumbs pull-right">
                                         <ul className="breadcrumbs-list">
                                             <li className="breadcrumbs-label">You are here:</li>
                                             <li><a href="/">Home</a><i className="fa fa-angle-right"></i></li>
-                                            <li className="current">Sports</li>
+                                            <li className="current">School Schedule</li>
                                         </ul>
                                     </div>
                                </header> 
                        <div className="page-content">
+                        <p style={{"font-size":"24px","font-style":"italic"}}>“A Trail of knowledge beyond imagination”</p>
                     <div className="row page-row">
 
                         <article className="welcome col-md-8 col-sm-7">                         
+                            
                               <div id="myCarousel" className="carousel slide" data-ride="carousel">
                                 <ol className="carousel-indicators">
                                     <li data-target="#myCarousel" data-slide-to="0" className=""></li>
                                     <li data-target="#myCarousel" data-slide-to="1" className="active"></li>
-                                    <li data-target="#myCarousel" data-slide-to="2" className=""></li>
+                                    
                                     
                                 </ol>
                                 <div className="carousel-inner">
-                                                <div className="item  active"><img src="http://zenopsys.net/soundarya_forms/school/images/sports1.jpg" alt="" style={{"width":"100%","height":"420px","border":"2px solid #1B68AB "}} /></div>
-                                                <div className="item "><img src="http://zenopsys.net/soundarya_forms/school/images/sports2.jpg" alt="" style={{"width":"100%","height":"420px","border":"2px solid #1B68AB "}} /></div>
-                                                <div className="item"><img src="http://zenopsys.net/soundarya_forms/school/images/sports3.jpg" alt="" style={{"width":"100%","height":"420px","border":"2px solid #1B68AB "}} /></div>
+                                                <div className="item  active"><img src="http://zenopsys.net/soundarya_forms/school/images/schsch1.jpg" alt="" style={{"width":"100%","height":"420px","border":"2px solid #1B68AB "}} /></div>
+                                                <div className="item "><img src="http://zenopsys.net/soundarya_forms/school/images/schsch2.jpg" alt="" style={{"width":"100%","height":"420px","border":"2px solid #1B68AB "}} /></div>
+                                    
+                                    
                                                
                                 </div>
                                  <a className="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -41,24 +44,15 @@ export default class Sports extends Component{
                                 <span className="sr-only">Next</span></a>
                             </div>  
                             <br/><br/>
-                            <p style={{"text-align":"justify"}}>Sacrifice, integrity, belief, excellence, respect, opportunity and
-                                achievement. These values and behaviours are central to sport at
-                                soundarya.</p>
-
-                            <p style={{"text-align":"justify"}}>As we redefined and reshaped the Soundarya Sports Program over the
-                            years, we looked to the world’s top sports teams, institutions and
-                            influencers to help build the best international school sports</p>
-
-                             <p style={{"text-align":"justify"}}>It is an honour and a privilege to wear an soundarya jersey and we
-                            teach our sports students the importance of playing with a higher purpose;
-                            to play for the person next to you, to play for all who came before you.
-                            The development of character and the sense of team is every bit as
-                            important as the development of skills and fitness. Each time we step out
-                            on the sporting field we ask ourselves, what will be your legacy? How will
-                            you leave the jersey in a better place?</p>
-
-
-                                                  
+                            <p style={{"text-align":"justify"}}>It is a common practice to begin day’s work in school with a morning
+                            assembly, where in the entire students, the head mistress and the teachers assemble for
+                            common prayers. Each class is given an opportunity for a week for the presentations,
+                            we begin our day with an invocation followed by news reading &amp; thought for the day.<br/>
+                            The school working hours are from 8.30 a.m to 3.30 p.m. The school
+                            curriculum has all features of brain storming sessions with interval for them to
+                            refresh.Also low achievers are given special attention by conducting remedial
+                            teaching in the zero hour.</p>
+                                
                            
                         </article>
                               <aside className="page-sidebar  col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-1">                    

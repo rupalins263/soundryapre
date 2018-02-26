@@ -8,6 +8,7 @@
     "express-history-api-fallback": "^2.2.1",
     "react": "^15.6.1",
     "react-calendar": "^2.13.0",
+    "react-day-picker": "^7.0.7",
     "react-dom": "^15.6.1",
     "react-router-dom": "^4.1.2",
     "react-scripts": "1.0.11"

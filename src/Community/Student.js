@@ -46,7 +46,7 @@ export default class Student extends Component{
                                 <span className="sr-only">Next</span></a>
                             </div>  
                             <br/><br/>
-                            <p style={{"text-align":"justify"}}>As many as 3000 plus students are enrolled for Soundarya School. We have 4
+                            <p style={{"text-align":"justify"}}>As many as 2000 plus students are enrolled for Soundarya School. We have 4
                                 treasure houses &amp; 8 clubs &amp; committees to facilitate our literary, cultural,&amp;
                                 sports competation.The houses are
                                 Ruby(red), Emerald (green), Topaz(yellow),Sapphire(blue).Each houses is the

@@ -14,9 +14,9 @@ export default class Mission extends Component{
                 
                     <div id="exTab2" className="container" style={{padding:0,marginBottom:50,marginTop:10}}>	
                             <ul className="nav nav-tabs"  style={{"background-color":"rgb(11, 22, 31)",color:"white",fontSize:20,}}>
-                                         <li><a href="#4" data-toggle="tab">About Soundarya</a>
+                                         <li className="active"><a href="#4" data-toggle="tab">About Soundarya</a>
                                         </li>
-                                        <li className="active">
+                                        <li>
                                             <a  href="#1" data-toggle="tab">Mission</a>
                                         </li>
                                         <li><a href="#2" data-toggle="tab">Vision</a>
@@ -61,15 +61,16 @@ export default class Mission extends Component{
                                             </div>
                                             <div className="tab-pane" id="4">
                                                          <article className="welcome col-md-8 col-sm-7">                         
-                                                                <h3 className="title" >About Soundarya</h3>
+                                                                <h3 className="title" id="">About Soundarya</h3>
                                                                 <p>‘Soundarya Educational Trust took its humble birth in the year 1993 under the auspices of Shri Shri Shri Vishwesha Theertha Swamiji. The Trust believes in the essence of the compositions of instilling excellence and inculcating values. Our prime objective is to impart quality education shielding the traditional values intact.</p>
-                                                                <p>Soundarya group of institutions comprising 4-elegent wings:</p>
+                                                                <p>Soundarya group of institutions comprising 6-elegent wings:</p>
                                                                 <ul className="custom-list-style">
                                                                     <li><i className="fa fa-check"></i> Soundarya School</li>
                                                                     <li><i className="fa fa-check"></i> Soundarya Central School (CBSE)</li>
                                                                     <li><i className="fa fa-check"></i> Soundarya PU College</li>
                                                                     <li><i className="fa fa-check"></i> Soundarya Institute Of Management &amp; Science</li>
-
+                                                                    <li><i className="fa fa-check"></i> Soundarya Law College</li>
+                                                                    <li><i className="fa fa-check"></i> Soundarya Arts & Commerce Evening College</li>
                                                                 </ul>
                                                         
                                                             </article>

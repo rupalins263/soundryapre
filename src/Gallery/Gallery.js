@@ -25,7 +25,7 @@ export default class Gallery extends Component{
     }
     goBack(){
         this.setState({
-            flag:false,
+            flag:false, 
             album:[]
         })
     }
@@ -58,9 +58,9 @@ export default class Gallery extends Component{
                                                 <div className="album-cover">
                                         
                                                         
-                                                        <img className="img-responsive" src={item.album_url || "http://res.cloudinary.com/dvl9i5pry/image/upload/v1505979469/gallery-default_eplxgr.jpg"} alt=""/>
+                                                        <img className="img-responsive" src={item.album_url || "http://res.cloudinary.com/dvl9i5pry/image/upload/v1505979469/gallery-default_eplxgr.jpg"} alt="" style={{"width":"100%","height":"250px","border":"0px solid #1B68AB "}}/>
                                                     
-                                                    <div className="desc">
+                                                    <div className="desc" style={{"width":"100%","height":"78px","border":"0px solid #1B68AB "}}>
                                                         <h4><small>{item.albumname.split("_")[1]}</small></h4>
                                                         <p>{item.album_description} </p>
                                                     </div>
@@ -89,9 +89,9 @@ export default class Gallery extends Component{
                                                 <div className="album-cover">
                                         
                                                         
-                                                        <img className="img-responsive" src={item.album_url || "http://res.cloudinary.com/dvl9i5pry/image/upload/v1505979469/gallery-default_eplxgr.jpg" } alt=""/>
+                                                        <img className="img-responsive" src={item.album_url || "http://res.cloudinary.com/dvl9i5pry/image/upload/v1505979469/gallery-default_eplxgr.jpg" } alt="" style={{"width":"100%","height":"250px","border":"0px solid #1B68AB "}}/>
                                                     
-                                                    <div className="desc">
+                                                    <div className="desc" style={{"width":"100%","height":"78px","border":"0px solid #1B68AB "}}>
                                                         <h4><small>{item.albumname.split("_")[1]}</small></h4>
                                                         <p>{item.album_description} </p>
                                                     </div>
@@ -117,9 +117,9 @@ export default class Gallery extends Component{
                                                 <div className="album-cover">
                                         
                                                         
-                                                        <img className="img-responsive" src={item.album_url  || "http://res.cloudinary.com/dvl9i5pry/image/upload/v1505979469/gallery-default_eplxgr.jpg" } alt=""/>
+                                                        <img className="img-responsive" src={item.album_url  || "http://res.cloudinary.com/dvl9i5pry/image/upload/v1505979469/gallery-default_eplxgr.jpg" } alt="" style={{"width":"100%","height":"250px","border":"0px solid #1B68AB "}}/>
                                                     
-                                                    <div className="desc">
+                                                    <div className="desc" style={{"width":"100%","height":"78px","border":"0px solid #1B68AB "}}>
                                                         <h4><small>{item.albumname.split("_")[1]}</small></h4>
                                                         <p>{item.album_description} </p>
                                                     </div>

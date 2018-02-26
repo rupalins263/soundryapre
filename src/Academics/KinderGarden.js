@@ -27,14 +27,15 @@ export default class KinderGarden extends Component{
                                     <li data-target="#myCarousel" data-slide-to="1" className="active"></li>
                                     <li data-target="#myCarousel" data-slide-to="2" className=""></li>
                                     <li data-target="#myCarousel" data-slide-to="3" className=""></li>
-                                    
+                                    <li data-target="#myCarousel" data-slide-to="4" className=""></li>
+
                                 </ol>
                                 <div className="carousel-inner">
                                                 <div className="item  active"><img src="http://zenopsys.net/soundarya_forms/school/images/kg1.jpg" alt="" style={{"width":"100%","height":"420px","border":"2px solid #1B68AB "}} /></div>
                                                 <div className="item "><img src="http://zenopsys.net/soundarya_forms/school/images/kg2.jpg" alt="" style={{"width":"100%","height":"420px","border":"2px solid #1B68AB "}} /></div>
                                                 <div className="item"><img src="http://zenopsys.net/soundarya_forms/school/images/kg3.jpg" alt="" style={{"width":"100%","height":"420px","border":"2px solid #1B68AB "}} /></div>
                                                 <div className="item"><img src="http://zenopsys.net/soundarya_forms/school/images/kg4.jpg" alt="" style={{"width":"100%","height":"420px","border":"2px solid #1B68AB "}} /></div>
-                                               
+                                                <div className="item"><img src="http://zenopsys.net/soundarya_forms/school/images/kg5.jpg" alt="" style={{"width":"100%","height":"420px","border":"2px solid #1B68AB "}} /></div>
                                 </div>
                                  <a className="left carousel-control" href="#myCarousel" data-slide="prev">
                                 <span className="glyphicon glyphicon-chevron-left"></span>

@@ -18,7 +18,7 @@ export  default class News extends Component{
                              </div>
                              <div>
                                  <span>
-                                  <a className="read-more" href="/News">
+                                  <a className="read-more" href="/#/News">
                                     Read more
                                     <i className="fa fa-chevron-right"></i></a>                
                                 </span>

@@ -6,7 +6,7 @@ export default class Mission extends Component{
         return(
 
                <div className="content container">
-                    <div className="page-wrapper">
+                    <div className="page-wrapper"><br/>
                             <header className="page-heading clearfix">
                                     <h1 className="heading-title pull-left"> News</h1>
                                     <div className="breadcrumbs pull-right">

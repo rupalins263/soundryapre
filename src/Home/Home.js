@@ -66,7 +66,7 @@ export  default class Home extends Component{
         return(
 
     <div className="container">
-    <div className="container">
+    <div className="container"  style={{"padding-right":"0px","padding-left": "0px"}}>
      <div id="myCarousel" className="carousel slide" data-ride="carousel">
    
               <ol className="carousel-indicators">
@@ -94,14 +94,14 @@ export  default class Home extends Component{
     </div>
 
     </div>
-    <section className="row " style={{"margin-left":"15px",color:"white","backgroundColor":"#444"}}>        
+    <section className="row " style={{"margin-left":"0px","margin-right":"-1px",color:"white","backgroundColor":"#444"}}>        
         <div className="col-md-9">
-        <h1 className="section-heading">why to be soundarians?</h1>
+        <h1 className="section-heading" style={{"fontFamily": "Iowan Old Style"}}>why to be soundarians?</h1>
             <p className="section-txt">A top notch institution shielding ‘values’ and fostering innovation and insight. Join us to experience the charm of ignite, innovate and excel.</p>   
         </div>  
         <div className="col-md-3">
             <div style={{marginTop:"60px","backgroundColor":"#1B68AB",width:"150px","font-family": 'Open Sans',color:"#fff"}}>
-            <a className="btn btn-cta" href="/Mission"><i className="fa fa-play-circle"></i>Read More</a> 
+            <a className="btn btn-cta" href="/#/Mission"><i className="fa fa-play-circle"></i>Read More</a> 
             </div> 
         </div>
     </section>

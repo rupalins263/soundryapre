@@ -19,6 +19,11 @@ import Faculty from './Community/Faculty';
 import Parent from './Community/Parent';
 import Alumni from './Community/Alumni';
 import KinderGarden from './Academics/KinderGarden';
+import Primary from './Academics/Primary';
+import HighSchool from './Academics/HighSchool';
+import EducationTrip from './Academics/EducationTrip';
+import ClubActivity from './Academics/ClubActivity';
+import SchoolSchedule from './Academics/SchoolSchedule';
 import Curriculum from './Academics/Curriculum';
 import Achievements from './Academics/Achievements';
 import Sports from './Academics/Sports';
@@ -57,6 +62,11 @@ class App extends Component {
                    <Route exact path="/Parent" component={Parent}/>
                    <Route exact path="/Alumni" component={Alumni}/>
                    <Route exact path="/KinderGarden" component={KinderGarden}/>
+                   <Route exact path="/Primary" component={Primary}/>
+                   <Route exact path="/HighSchool" component={HighSchool}/>
+                   <Route exact path="/EducationTrip" component={EducationTrip}/>
+                   <Route exact path="/ClubActivity" component={ClubActivity}/>
+                   <Route exact path="/SchoolSchedule" component={SchoolSchedule}/>
                    <Route exact path="/Curriculum" component={Curriculum}/>
                    <Route exact path="/Achievements" component={Achievements}/>
                    <Route exact path="/Sports" component={Sports}/>

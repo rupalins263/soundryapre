@@ -1,18 +1,18 @@
 import React,{Component} from 'react';
 import '../Contact/Contact.css';
 
-export default class Sports extends Component{
+export default class EducationTrip extends Component{
     render(){
         return(
               <div className="content container">
                     <div className="page-wrapper"><br/>
                             <header className="page-heading clearfix">
-                                    <h1 className="heading-title pull-left">Sports</h1>
+                                    <h1 className="heading-title pull-left"> Educational Trips</h1>
                                     <div className="breadcrumbs pull-right">
                                         <ul className="breadcrumbs-list">
                                             <li className="breadcrumbs-label">You are here:</li>
                                             <li><a href="/">Home</a><i className="fa fa-angle-right"></i></li>
-                                            <li className="current">Sports</li>
+                                            <li className="current">Educational Trips</li>
                                         </ul>
                                     </div>
                                </header> 
@@ -20,17 +20,21 @@ export default class Sports extends Component{
                     <div className="row page-row">
 
                         <article className="welcome col-md-8 col-sm-7">                         
+                            
                               <div id="myCarousel" className="carousel slide" data-ride="carousel">
                                 <ol className="carousel-indicators">
                                     <li data-target="#myCarousel" data-slide-to="0" className=""></li>
                                     <li data-target="#myCarousel" data-slide-to="1" className="active"></li>
                                     <li data-target="#myCarousel" data-slide-to="2" className=""></li>
+                                    <li data-target="#myCarousel" data-slide-to="3" className=""></li>
                                     
                                 </ol>
                                 <div className="carousel-inner">
-                                                <div className="item  active"><img src="http://zenopsys.net/soundarya_forms/school/images/sports1.jpg" alt="" style={{"width":"100%","height":"420px","border":"2px solid #1B68AB "}} /></div>
-                                                <div className="item "><img src="http://zenopsys.net/soundarya_forms/school/images/sports2.jpg" alt="" style={{"width":"100%","height":"420px","border":"2px solid #1B68AB "}} /></div>
-                                                <div className="item"><img src="http://zenopsys.net/soundarya_forms/school/images/sports3.jpg" alt="" style={{"width":"100%","height":"420px","border":"2px solid #1B68AB "}} /></div>
+                                                <div className="item  active"><img src="http://zenopsys.net/soundarya_forms/school/images/Ed1.jpg" alt="" style={{"width":"100%","height":"420px","border":"2px solid #1B68AB "}} /></div>
+                                                <div className="item "><img src="http://zenopsys.net/soundarya_forms/school/images/Ed2.jpg" alt="" style={{"width":"100%","height":"420px","border":"2px solid #1B68AB "}} /></div>
+                                    
+                                                <div className="item"><img src="http://zenopsys.net/soundarya_forms/school/images/Ed3.jpg" alt="" style={{"width":"100%","height":"420px","border":"2px solid #1B68AB "}} /></div>
+                                                <div className="item"><img src="http://zenopsys.net/soundarya_forms/school/images/Ed4.jpg" alt="" style={{"width":"100%","height":"420px","border":"2px solid #1B68AB "}} /></div>
                                                
                                 </div>
                                  <a className="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -41,24 +45,21 @@ export default class Sports extends Component{
                                 <span className="sr-only">Next</span></a>
                             </div>  
                             <br/><br/>
-                            <p style={{"text-align":"justify"}}>Sacrifice, integrity, belief, excellence, respect, opportunity and
-                                achievement. These values and behaviours are central to sport at
-                                soundarya.</p>
-
-                            <p style={{"text-align":"justify"}}>As we redefined and reshaped the Soundarya Sports Program over the
-                            years, we looked to the world’s top sports teams, institutions and
-                            influencers to help build the best international school sports</p>
-
-                             <p style={{"text-align":"justify"}}>It is an honour and a privilege to wear an soundarya jersey and we
-                            teach our sports students the importance of playing with a higher purpose;
-                            to play for the person next to you, to play for all who came before you.
-                            The development of character and the sense of team is every bit as
-                            important as the development of skills and fitness. Each time we step out
-                            on the sporting field we ask ourselves, what will be your legacy? How will
-                            you leave the jersey in a better place?</p>
-
-
-                                                  
+                            <p style={{"text-align":"justify"}}>Every year the students of nursery are taken are taken to
+                            play park, magic show, train ride where they can enjoy
+                            themselves. Time to acquire the skills of coordination of organs
+                            and mind and make friends, be confident enough in various
+                            aspects; by running, swinging, walking, jumping, climbing, etc. <br/>
+                            Field trips have been organized for the classes 1 to 10
+                            which help the children to gain the practical knowledge of what
+                            they learn in classrooms. Places like Bugle rock park, chitrakala
+                            parishath art gallery, heseragatta farm house,J.P. park,
+                            Planetarium, Research center IIHR, ISRO, UNIBIC factory,
+                            GKVK,etc. Apart from this our saplings &amp; seedlings have the
+                            pleasure to enjoy the warmth of the sun at Dharamashree
+                            resort,Maharaja palace at Mysore, Excursion to
+                            Goa,Talakadu,Delhi..</p>
+                                
                            
                         </article>
                               <aside className="page-sidebar  col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-1">                    

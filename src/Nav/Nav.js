@@ -25,23 +25,31 @@ class Nav extends Component{
                 <div className="header-main container">
                 <h1 className="logo col-md-6 col-sm-6">
                     <a href="/" style={{"text-decoration": "none"}}>
-                        <img id="logo" src="http://res.cloudinary.com/dzrelou7q/image/upload/v1503155295/Logo_dts0t4.jpg" alt="Logo"/>
-                        <h1 style={{"display":"inline-block","margin-top":"6%","font-size":"40px"}}>Soundarya School</h1>
+                        <img id="logo" src="http://res.cloudinary.com/dzrelou7q/image/upload/v1503155295/Logo_dts0t4.jpg" alt="Logo"/>&nbsp;
+                        <h1 style={{"display":"inline-block","margin-top":"6%","font-size":"42px","fontFamily": "fantasy"}}>Soundarya School</h1>
                     </a>
                 </h1>         
                 <div className="info col-md-6 col-sm-6">
-                    <div className="menu-top navbar-right hidden-xs txt-Social">
+                {/*<div className="menu-top navbar-right hidden-xs txt-Social"> <p style={{"font-size":"20px","font-weight":"bold"}}> "Enrichment Beyond The Classroom"</p> </div><br/>*/}
+                    <div className="contact pull-right">
+                        <span className="phone txt-phn"><i className="fa fa-phone espan"></i>Call us today 080-28391789</span> 
+                        <span className="email txt-phn"><i className="fa fa-envelope espan"></i><a href="mailto:soundaryaschool@gmail.com">soundaryaschool@gmail.com</a></span>
+
+                    </div>
+                    <div className="contact pull-right">
+                        <span className="espan"><i className="fa fa-home espan"></i><a href="/" style={{"font-size":"16px", color: "#444","font-weight":"bold"}}>HOME</a></span>
+                        <span className="espan"><a href="/#/Admission" style={{"font-size":"16px",color: "#444","font-weight":"bold"}}>ADMISSION</a></span>
+                        <span className="espan"><i className="fa fa-envelope espan"></i><a href="/#/ContactUs" style={{"font-size":"16px", color: "#444","font-weight":"bold"}}>CONTACT US</a></span>
+
+                    </div>
+                   {/*<div className="menu-top navbar-right hidden-xs txt-Social">
                         <span className="espan"><a href="#" style={{ color: "#444"}}>Social Connect :</a></span>
                         <span className="espan"><a href="https://www.facebook.com/SoundaryaSchool/" target="_blank" style={{ color: "#444"}}><i className="fa fa-facebook"></i></a></span>
                         <span className="espan"><a href="#" style={{ color: "#444"}}><i className="fa fa-linkedin"></i></a></span>
                         <span className="espan"><a href="#" style={{ color: "#444"}}><i className="fa fa-google-plus"></i></a></span>
-                    </div>
-                    <br/>
-                    <div className="contact pull-right">
-                        <span className="phone txt-phn"><i className="fa fa-phone espan"></i>Call us today 080-28391789</span> <br/>
-                        <span className="email txt-phn"><i className="fa fa-envelope espan"></i><a href="mailto:soundaryaschool@gmail.com">soundaryaschool@gmail.com</a></span>
-
-                    </div>
+                    </div> */}
+                    <br/> 
+                   
                 </div>
             </div>
           </div>
@@ -55,7 +63,7 @@ class Nav extends Component{
    
     <div className="collapse navbar-collapse nav-a" style={{paddingTop:"5px"}} id="bs-example-navbar-collapse-1">
       <ul className="nav navbar-nav ">
-           <li><a href="/" className="navf"  id="HOME">HOME</a></li>
+          {/* <li><a href="/" className="navf"  id="HOME">HOME</a></li> */}
           
         <li className="dropdown">
           <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT<span className="caret"></span></a>
@@ -89,14 +97,33 @@ class Nav extends Component{
                    <a className="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">SCHOLASTIC</a>
                     <ul className="dropdown-menu">
                          <li><a href="/#/KinderGarden">KINDER GARDEN</a></li>
-                         <li><a href="/#/">PRIMARY</a></li>
-                         <li><a href="/#/">HIGH SCHOOL</a></li>                                             
+                         <li><a href="/#/Primary">PRIMARY</a></li>
+                         <li><a href="/#/HighSchool">HIGH SCHOOL</a></li>                                             
                                   
                     </ul>
                     
               </li>
-              <li><a href="/#/Curriculum">CO-SCHOLASTIC</a></li>
-              <li><a href="/#/Curriculum">EDUCATIONAL</a></li>
+               <li className="menu-item dropdown dropdown-Ssubmenu">
+                 
+                   <a className="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">CO-SCHOLASTIC</a>
+                    <ul className="dropdown-menu">
+                         <li><a href="/#/EducationTrip">EDUCATIONAL TRIPS</a></li>
+                         <li><a href="/#/ClubActivity">CLUB ACTIVITIES</a></li>
+                                  
+                    </ul>
+                    
+              </li>
+               <li className="menu-item dropdown dropdown-Ssubmenu">
+                 
+                   <a className="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">EDUCATIONAL APPROACH</a>
+                    <ul className="dropdown-menu">
+                         <li><a href="/#/Methedology">METHODOLOGY</a></li>
+                                  
+                    </ul>
+                    
+              </li>
+             <li><a href="/#/Assesment">ASSESSMENT PLAN</a></li>
+             <li><a href="/#/SchoolSchedule">SCHOOL SCHEDULE</a></li>
             </ul>
          </li>
 
@@ -131,11 +158,19 @@ class Nav extends Component{
             <li><a href="/#/Facilities">FACILITIES</a></li>
           </ul>
         </li>
-        <li><a href="/#/Gallery">PICTURESQUE MOMENTS</a></li>
+        <li className="dropdown">
+          <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PICTURESQUE<br/>MOMENTS<span className="caret"></span></a>
+          <ul className="dropdown-menu navli-a">
+            <li><a href="/#/Gallery/Nursery">KINDER GARDEN</a></li>
+            <li><a href="/#/Gallery/Primary">PRIMARY SCHOOL </a></li>
+            <li><a href="/#/Gallery/HighSchool">HIGH SCHOOL</a></li>
+           
+          </ul>
+        </li>
         <li className="dropdown">
           <a href="/#/Gallery" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">NEWS &amp; EVENTS<span className="caret"></span></a>
           <ul className="dropdown-menu navli-a">
-            <li><a href="/#/FineArts">EVENT DIARY</a></li>
+            <li><a href="/#/News">EVENT DIARY</a></li>
             <li><a href="/#/Career">CAREERS </a></li>          
           </ul>
         </li>
