@@ -35,14 +35,14 @@ export  default class Home extends Component{
                           {
                               return(
                                        <div className="item active">
-                                                <img src={item.image_url} alt="Los Angeles" style={{width:"100%",height:650}}/>
+                                                <img src={item.image_url} alt="Los Angeles" style={{width:"100%",height:500}}/>
                                             </div>  
                               )
                           }
                           else{
                             return(
                                     <div className="item ">
-                                            <img src={item.image_url} alt="New york" style={{width:"100%",height:650}}/>
+                                            <img src={item.image_url} alt="New york" style={{width:"100%",height:500}}/>
                                     </div>
                             )
                           }
@@ -65,9 +65,9 @@ export  default class Home extends Component{
         
         return(
 
-    <div className="container" style={{"width":"1750px"}}>
-    <div className="container"  style={{"width":"1750px"}}>
-     <div id="myCarousel" style={{"width":"1750px"}} className="carousel slide" data-ride="carousel">
+    <div className="container">
+    <div className="container"  style={{"padding-right":"0px","padding-left": "0px"}}>
+     <div id="myCarousel" className="carousel slide" data-ride="carousel">
    
               <ol className="carousel-indicators">
                     {num}
@@ -95,11 +95,11 @@ export  default class Home extends Component{
 
     </div>
     <section className="row " style={{"margin-left":"0px","margin-right":"-1px",color:"white","backgroundColor":"#444"}}>        
-        <div className="col-md-10">
+        <div className="col-md-9">
         <h1 className="section-heading" style={{"fontFamily": "Iowan Old Style"}}>why to be soundarians?</h1>
             <p className="section-txt">A top notch institution shielding ‘values’ and fostering innovation and insight. Join us to experience the charm of ignite, innovate and excel.</p>   
         </div>  
-        <div className="col-md-2">
+        <div className="col-md-3">
             <div style={{marginTop:"60px","backgroundColor":"#1B68AB",width:"150px","font-family": 'Open Sans',color:"#fff"}}>
             <a className="btn btn-cta" href="/#/Mission"><i className="fa fa-play-circle"></i>Read More</a> 
             </div> 
